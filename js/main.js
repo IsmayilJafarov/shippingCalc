@@ -1,5 +1,6 @@
 const firstPriceNode = document.querySelector('.first-price');
 const finalPriceNode = document.querySelector('.final-price');
+const finalPriceNodeAzn = document.querySelector('.final-price-azn');
 const selectShopNode = document.querySelector('.shop');
 const resultButtonEbay = document.querySelector('.result-eBay');
 const resultButtonCompUniverse = document.querySelector('.result-CompUniverse');
@@ -29,8 +30,8 @@ function PriceAfterShippingCompUniverse() {
 }
 
 function ConvertToAzn()  {
-    let ConvertAzn = parseInt(firstPriceNode.value) * 1.7;
-    finalPriceNode.innerHTML = ConvertAzn;
+    let ConvertAzn = parseInt(finalPriceNode.innerHTML) * 1.7;
+    finalPriceNodeAzn.innerHTML = ConvertAzn;
 
 }
 
