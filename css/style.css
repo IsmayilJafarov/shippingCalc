@@ -5,24 +5,33 @@ body {
 }
 
 .first-price {
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
+    width: 16.6666%;
 }
 .final-price {
-    font-size: 50px;
+    font-size: 30px;
     border: 1px solid;
     margin: 10px 10px;
     padding: 20px ;
     background-color: #fff;
-    width: 300px;
+    width: 16.6666%;
     text-align: center;
-
+}
+.final-price-azn {
+    font-size: 30px;
+    border: 1px solid;
+    margin: 10px 10px;
+    padding: 20px ;
+    background-color: #fff;
+    text-align: center;
+    width: 16.6666%;
 }
 .shop {
-    font-size: 50px;
+    font-size: 30px;
 }
 .returnBtn {
-    font-size: 50px;
+    font-size: 30px;
     margin: 10px 10px;
     cursor: pointer;
 }
