@@ -1,37 +1,42 @@
 body {
+    text-align: center;
     display: flex;
+    flex: auto;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: #02adf6;
 }
 
 .first-price {
-    font-size: 30px;
     text-align: center;
-    width: 16.6666%;
+    font-size: 24px;
+    width: 25%;
 }
 .final-price {
-    font-size: 30px;
+    
+    font-size: 24px;
     border: 1px solid;
     margin: 10px 10px;
-    padding: 20px ;
+    padding: 30px ;
     background-color: #fff;
-    width: 16.6666%;
+    width: 25%;
     text-align: center;
 }
 .final-price-azn {
-    font-size: 30px;
+    font-size: 24px;
     border: 1px solid;
     margin: 10px 10px;
     padding: 20px ;
     background-color: #fff;
-    text-align: center;
-    width: 16.6666%;
+    width: 25%;
 }
 .shop {
-    font-size: 30px;
+    width: 25%;
+    font-size: 24px;
 }
 .returnBtn {
-    font-size: 30px;
+    width: 25%;
+    font-size: 24px;
     margin: 10px 10px;
     cursor: pointer;
 }
