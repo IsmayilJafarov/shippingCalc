@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #02adf6;
+}
+
+.first-price {
+    font-size: 50px;
+    text-align: center;
+}
+.final-price {
+    font-size: 50px;
+    border: 1px solid;
+    margin: 10px 10px;
+    padding: 20px ;
+    background-color: #fff;
+    width: 300px;
+    text-align: center;
+
+}
+.shop {
+    font-size: 50px;
+}
+.returnBtn {
+    font-size: 50px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
